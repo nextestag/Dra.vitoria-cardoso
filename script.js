@@ -126,15 +126,15 @@ contactForm.addEventListener("submit", function(event) {
        55 + DDD + número
 
        Exemplo fictício:
-       5579999999999
+       +55 79 99832-9614
     */
 
     const lawyerWhatsApp =
-        "5579999999999";
+        "+55 79 99832-9614";
 
 
     const whatsappMessage =
-        `Olá, Dra. Mariana.%0A%0A` +
+        `Olá, Dra. Vitória Cardoso.%0A%0A` +
         `Meu nome é ${encodeURIComponent(name)}.%0A` +
         `Meu WhatsApp: ${encodeURIComponent(phone)}.%0A` +
         `Assunto: ${encodeURIComponent(subject)}.%0A%0A` +
