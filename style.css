@@ -450,13 +450,19 @@ select {
 }
 
 .about-grid {
-    display: grid;
+    display: flex;
 
-    grid-template-columns: 0.8fr 1.2fr;
-
-    gap: 80px;
+    justify-content: center;
 
     align-items: center;
+
+    text-align: center;
+}
+
+.about-text {
+    max-width: 800px;
+
+    margin: 0 auto;
 }
 
 .lawyer-photo {
@@ -484,7 +490,7 @@ select {
 }
 
 .about-text h2 {
-    max-width: 650px;
+    max-width: 800px;
 
     font-family: Georgia, serif;
 
@@ -498,15 +504,19 @@ select {
 }
 
 .about-text p {
-    color: var(--gray);
+    max-width: 700px;
 
-    margin-bottom: 18px;
+    margin: 0 auto 18px;
+
+    color: var(--gray);
 }
 
 .credentials {
     display: flex;
 
-    gap: 50px;
+    justify-content: center;
+
+    gap: 60px;
 
     margin-top: 35px;
 
