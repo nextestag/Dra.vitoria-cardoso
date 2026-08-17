@@ -459,25 +459,16 @@ select {
     align-items: center;
 }
 
-.photo-placeholder {
+.lawyer-photo {
+    width: 100%;
     height: 520px;
 
-    background:
-        linear-gradient(
-            135deg,
-            #dfe4e7,
-            #bfc8ce
-        );
+    display: block;
 
-    display: flex;
+    object-fit: cover;
 
-    flex-direction: column;
-
-    justify-content: center;
-
-    align-items: center;
-
-    color: #68747d;
+    border-radius: 2px;
+}
 }
 
 .photo-placeholder span {
@@ -896,10 +887,9 @@ select {
         gap: 50px;
     }
 
-    .photo-placeholder {
-        height: 400px;
+    .lawyer-photo {
+    height: 400px;
     }
-
     .contact-grid {
         grid-template-columns: 1fr;
     }
