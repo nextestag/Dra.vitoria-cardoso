@@ -728,6 +728,124 @@ select {
     margin-top: 3px;
 
     color: white;
+}/* ===== NOVO VISUAL DA ÁREA DE CONTATO ===== */
+
+.contact-info {
+    width: 100%;
+}
+
+.contact-title {
+    margin-bottom: 35px;
+}
+
+.contact-title .eyebrow {
+    display: block;
+    color: var(--gold);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-bottom: 12px;
+}
+
+.contact-title h2 {
+    color: #fff;
+    font-size: 38px;
+    line-height: 1.2;
+    margin: 0 0 18px;
+}
+
+.contact-title p {
+    color: rgba(255,255,255,0.75);
+    line-height: 1.7;
+    max-width: 650px;
+    margin: 0;
+}
+
+.contact-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.contact-card {
+    min-height: 180px;
+    border: 1px solid var(--gold);
+    border-radius: 12px;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    background: transparent;
+}
+
+.contact-card:hover {
+    transform: translateY(-6px);
+    background: rgba(185, 150, 85, 0.10);
+}
+
+.contact-icon {
+    width: 58px;
+    height: 58px;
+    border-radius: 11px;
+    background: var(--gold);
+    color: var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contact-card span {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.contact-card strong {
+    color: rgba(255,255,255,0.72);
+    font-size: 13px;
+    font-weight: 400;
+    word-break: break-word;
+}
+
+
+/* ===== CELULAR ===== */
+
+@media (max-width: 768px) {
+
+    .contact-title h2 {
+        font-size: 30px;
+    }
+
+    .contact-links {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .contact-card {
+        min-height: 165px;
+        padding: 20px 10px;
+    }
+
+    .contact-icon {
+        width: 52px;
+        height: 52px;
+        font-size: 22px;
+    }
+
+    .contact-card span {
+        font-size: 15px;
+    }
+
+    .contact-card strong {
+        font-size: 12px;
+    }
 }
 
 
