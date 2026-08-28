@@ -1461,3 +1461,78 @@ h1, h2, h3 {
     font-family: "Bodoni 72", "Didot", "Bodoni MT", "Times New Roman", serif !important;
     letter-spacing: 3px !important;
 }
+/* ===== AJUSTE FINAL DO LOGO NO CABEÇALHO ===== */
+
+header .container.nav {
+    min-height: 90px !important;
+    height: 90px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+header .logo {
+    height: 80px !important;
+    max-height: 80px !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+
+header .logo .logo-img {
+    width: 80px !important;
+    height: 70px !important;
+    min-width: 80px !important;
+    max-width: 80px !important;
+    min-height: 70px !important;
+    max-height: 70px !important;
+    overflow: hidden !important;
+    flex-shrink: 0 !important;
+}
+
+header .logo .logo-img img {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    object-fit: contain !important;
+    display: block !important;
+}
+
+header .logo .logo-mini {
+    width: 80px !important;
+    height: 70px !important;
+    min-width: 80px !important;
+    max-width: 80px !important;
+    min-height: 70px !important;
+    max-height: 70px !important;
+    overflow: hidden !important;
+}
+
+header .logo .logo-mini img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+}
+
+/* Evita que o logo ultrapasse o cabeçalho no celular */
+@media (max-width: 768px) {
+    header .container.nav {
+        height: 85px !important;
+        min-height: 85px !important;
+    }
+
+    header .logo {
+        height: 75px !important;
+        max-height: 75px !important;
+    }
+
+    header .logo .logo-img,
+    header .logo .logo-mini {
+        width: 75px !important;
+        height: 65px !important;
+        min-width: 75px !important;
+        max-width: 75px !important;
+        min-height: 65px !important;
+        max-height: 65px !important;
+    }
+}
