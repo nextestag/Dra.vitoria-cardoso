@@ -1436,3 +1436,28 @@ header .logo .logo-mini img {
     margin: 0 !important;
     padding: 0 !important;
 }
+/* FONTE DA IDENTIDADE VISUAL - DRA. VITÓRIA */
+
+/* Nome da advogada no cabeçalho */
+header .logo strong {
+    font-family: "Bodoni 72", "Didot", "Bodoni MT", "Times New Roman", serif !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+}
+
+/* ADVOCACIA no cabeçalho */
+header .logo small {
+    font-family: "Bodoni 72", "Didot", "Bodoni MT", "Times New Roman", serif !important;
+    letter-spacing: 5px !important;
+}
+
+/* Títulos principais do site */
+h1, h2, h3 {
+    font-family: "Bodoni 72", "Didot", "Bodoni MT", "Times New Roman", serif !important;
+}
+
+/* Textos pequenos de destaque */
+.eyebrow {
+    font-family: "Bodoni 72", "Didot", "Bodoni MT", "Times New Roman", serif !important;
+    letter-spacing: 3px !important;
+}
