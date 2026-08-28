@@ -1358,3 +1358,26 @@ header .logo .logo-img img {
     object-fit: contain !important;
     position: static !important;
 }
+/* LOGO PEQUENO DO CABEÇALHO */
+header .logo .logo-mini {
+    display: block !important;
+    width: 35px !important;
+    height: 35px !important;
+    min-width: 35px !important;
+    max-width: 35px !important;
+    min-height: 35px !important;
+    max-height: 35px !important;
+    overflow: hidden !important;
+}
+
+header .logo .logo-mini img {
+    position: static !important;
+    display: block !important;
+    width: 35px !important;
+    height: 35px !important;
+    min-width: 35px !important;
+    max-width: 35px !important;
+    min-height: 35px !important;
+    max-height: 35px !important;
+    object-fit: contain !important;
+}
