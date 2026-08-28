@@ -1302,20 +1302,28 @@ select {
         box-sizing: border-box;
     }
 }
-/* Logo da Dra. Vitória */
-.logo-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 48px;
-    height: 48px;
-    overflow: hidden;
-    flex-shrink: 0;
+/* LOGO PEQUENO NO CABEÇALHO */
+header .logo .logo-img {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 42px !important;
+    height: 42px !important;
+    max-width: 42px !important;
+    max-height: 42px !important;
+    overflow: hidden !important;
+    flex-shrink: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-.logo-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
+header .logo .logo-img img {
+    display: block !important;
+    width: 42px !important;
+    height: 42px !important;
+    max-width: 42px !important;
+    max-height: 42px !important;
+    object-fit: contain !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
