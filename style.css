@@ -1361,23 +1361,23 @@ header .logo .logo-img img {
 /* LOGO PEQUENO DO CABEÇALHO */
 header .logo .logo-mini {
     display: block !important;
-    width: 35px !important;
-    height: 35px !important;
-    min-width: 35px !important;
-    max-width: 35px !important;
-    min-height: 35px !important;
-    max-height: 35px !important;
+    width: 50px !important;
+    height: 50px !important;
+    min-width: 50px !important;
+    max-width: 50px !important;
+    min-height: 50px !important;
+    max-height: 50px !important;
     overflow: hidden !important;
 }
 
 header .logo .logo-mini img {
     position: static !important;
     display: block !important;
-    width: 35px !important;
-    height: 35px !important;
-    min-width: 35px !important;
-    max-width: 35px !important;
-    min-height: 35px !important;
-    max-height: 35px !important;
+    width: 50px !important;
+    height: 50px !important;
+    min-width: 50px !important;
+    max-width: 50px !important;
+    min-height: 50px !important;
+    max-height: 50px !important;
     object-fit: contain !important;
 }
