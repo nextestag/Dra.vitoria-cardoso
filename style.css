@@ -1302,3 +1302,20 @@ select {
         box-sizing: border-box;
     }
 }
+/* Logo da Dra. Vitória */
+.logo-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.logo-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
