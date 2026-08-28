@@ -1461,78 +1461,124 @@ h1, h2, h3 {
     font-family: "Bodoni 72", "Didot", "Bodoni MT", "Times New Roman", serif !important;
     letter-spacing: 3px !important;
 }
-/* ===== AJUSTE FINAL DO LOGO NO CABEÇALHO ===== */
+/* ===== AJUSTE DEFINITIVO - CABEÇALHO E FONTE ===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700&display=swap');
+
+/* FONTE PRINCIPAL - ESTILO ELEGANTE DA LOGO */
+body,
+button,
+a,
+p,
+span,
+small,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Bodoni Moda", Georgia, serif !important;
+}
+
+/* CABEÇALHO */
+header {
+    height: 105px !important;
+    min-height: 105px !important;
+    overflow: hidden !important;
+}
 
 header .container.nav {
-    min-height: 90px !important;
-    height: 90px !important;
+    height: 105px !important;
+    min-height: 105px !important;
+    max-height: 105px !important;
     display: flex !important;
     align-items: center !important;
-}
-
-header .logo {
-    height: 80px !important;
-    max-height: 80px !important;
-    display: flex !important;
-    align-items: center !important;
-    gap: 10px !important;
-}
-
-header .logo .logo-img {
-    width: 80px !important;
-    height: 70px !important;
-    min-width: 80px !important;
-    max-width: 80px !important;
-    min-height: 70px !important;
-    max-height: 70px !important;
     overflow: hidden !important;
-    flex-shrink: 0 !important;
 }
 
-header .logo .logo-img img {
-    width: 100% !important;
-    height: 100% !important;
-    max-width: 100% !important;
-    max-height: 100% !important;
-    object-fit: contain !important;
+/* ÁREA DO LOGO */
+header .logo {
+    height: 95px !important;
+    max-height: 95px !important;
+    display: flex !important;
+    align-items: center !important;
+    overflow: hidden !important;
+}
+
+/* QUADRADO DO LOGO */
+header .logo .logo-mini,
+header .logo .logo-img {
+    width: 90px !important;
+    height: 85px !important;
+    min-width: 90px !important;
+    max-width: 90px !important;
+    min-height: 85px !important;
+    max-height: 85px !important;
+    flex: 0 0 90px !important;
+    overflow: hidden !important;
     display: block !important;
 }
 
-header .logo .logo-mini {
-    width: 80px !important;
-    height: 70px !important;
-    min-width: 80px !important;
-    max-width: 80px !important;
-    min-height: 70px !important;
-    max-height: 70px !important;
-    overflow: hidden !important;
-}
-
-header .logo .logo-mini img {
+/* IMAGEM DENTRO DO QUADRADO */
+header .logo .logo-mini img,
+header .logo .logo-img img {
     width: 100% !important;
     height: 100% !important;
-    object-fit: contain !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    min-height: 100% !important;
+    max-height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    display: block !important;
 }
 
-/* Evita que o logo ultrapasse o cabeçalho no celular */
+/* TEXTO AO LADO DO LOGO */
+header .logo > div {
+    font-family: "Bodoni Moda", Georgia, serif !important;
+}
+
+/* NOME DA DRA */
+header .logo strong {
+    font-family: "Bodoni Moda", Georgia, serif !important;
+    font-weight: 700 !important;
+}
+
+/* ADVOCACIA */
+header .logo small {
+    font-family: "Bodoni Moda", Georgia, serif !important;
+    letter-spacing: 4px !important;
+}
+
+/* CELULAR */
 @media (max-width: 768px) {
+
+    header {
+        height: 100px !important;
+        min-height: 100px !important;
+    }
+
     header .container.nav {
-        height: 85px !important;
-        min-height: 85px !important;
+        height: 100px !important;
+        min-height: 100px !important;
+        max-height: 100px !important;
     }
 
     header .logo {
-        height: 75px !important;
-        max-height: 75px !important;
+        height: 90px !important;
+        max-height: 90px !important;
     }
 
-    header .logo .logo-img,
-    header .logo .logo-mini {
-        width: 75px !important;
-        height: 65px !important;
-        min-width: 75px !important;
-        max-width: 75px !important;
-        min-height: 65px !important;
-        max-height: 65px !important;
+    header .logo .logo-mini,
+    header .logo .logo-img {
+        width: 85px !important;
+        height: 80px !important;
+        min-width: 85px !important;
+        max-width: 85px !important;
+        min-height: 80px !important;
+        max-height: 80px !important;
+        flex: 0 0 85px !important;
     }
 }
