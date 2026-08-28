@@ -1327,3 +1327,34 @@ header .logo .logo-img img {
     margin: 0 !important;
     padding: 0 !important;
 }
+/* CORREÇÃO DEFINITIVA DO LOGO DO CABEÇALHO */
+
+header .logo {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+}
+
+header .logo .logo-img {
+    display: flex !important;
+    width: 32px !important;
+    height: 32px !important;
+    min-width: 32px !important;
+    max-width: 32px !important;
+    min-height: 32px !important;
+    max-height: 32px !important;
+    overflow: hidden !important;
+    flex: 0 0 32px !important;
+}
+
+header .logo .logo-img img {
+    display: block !important;
+    width: 32px !important;
+    height: 32px !important;
+    min-width: 32px !important;
+    max-width: 32px !important;
+    min-height: 32px !important;
+    max-height: 32px !important;
+    object-fit: contain !important;
+    position: static !important;
+}
